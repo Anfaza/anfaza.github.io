@@ -23,24 +23,27 @@
 
   
 
-#rcorners1 {
+.rcorners1 {
     border-radius: 25px;
     background: #73AD21;
     padding: 20px; 
     text-align:center;
     font-weight: bold;
     border: 5px solid black;
+    font-family: bell;
 }
+
 IMG.displayed {
     display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto ;
+    border-radius: 50%; }
 
+.filmpje { display: block;
+    margin-left: auto;
+    margin-right: auto ;}
+ 
 
- img {
-     border-radius:50%;
-     text-align: center;
-}
 
 body {
     background-color: whitesmoke;
@@ -73,28 +76,10 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align: center;
 
  }
-ul {
-    color:rgb(0, 0, 0);
-    font-size: 14px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-weight: bold;
-    border: 5px solid;
-}
 
-ol {
-    color:rgb(0,0, 0; 
-    font-size: 14px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-weight: bold;}
 
-li {color:rgb(0, 0, 0);
-    font-size: 14px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-weight: bold;} 
-    
+
+
 
 table {
      border-collapse: collapse;
