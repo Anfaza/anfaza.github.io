@@ -77,13 +77,46 @@ text-align: center;
 
  }
 
+.active { background-color:whitesmoke;
+color:saddlebrown;}
+
+.active ul { list-style-type: none;
+margin:0 auto;
+padding:0;
+width:25%;
+background-color:green;
+border: 1px solid #555;
+
+}
 
 
+
+.active li a { display: block;
+    color:black;
+    padding : 8px 16px;
+    text-decoration:none;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    font-weight:bold;
+
+}
+
+.active li:last-child {
+    border-bottom: none;
+}
+/* Change the link color on hover*/
+.active li a:hover { background-color:greenyellow;
+color:white;}
+
+.aantalecs
+{ border-block-end-width: 300px;}
 
 
 table {
      border-collapse: collapse;
      width: 500px;
+     text-align:center;
+     margin:0 auto;
 
 }
  th{
