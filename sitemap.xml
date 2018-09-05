@@ -2,28 +2,29 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="opmaak.css">
+
+    <link rel="stylesheet" type="text/css" href="opmaak.css"></link>
+</head>
+
+<body>
     <div class="topnav">
 
         <a class="active" href="index.html">Home</a>
         <a class="active" href="overmij.html">Persoonlijk</a>
         <a class="active" href="dashboard.html">Dashboard</a>
-        <a class="active" href="Sitemap.xml">Sitemap</a>
+        <a class="active" href="Sitemap.html">Sitemap</a>
 
 
     </div>
 
-</head>
-
-<body>
     <h1>Links</h1>
 
 
     <div class="sitemap">
         <ul>
-            <li><a href="opmaak.css"target="_blank">Opmaak</a></li>
+            <li><a href="opmaak.css" target="_blank">Opmaak</a></li>
             <li><a href="index.html" target="_blank">Home</a></li>
-            <li><a href="dashboard.html"target="_blank">Dashboard</a><li>
+            <li><a href="dashboard.html" target="_blank">Dashboard</a><li>
                     <li> <a href="https://hz.nl/uploads/documents/Regelingen/OERS/2017-2018/HBO-ICT-2017-2018-OER.pdf" target="_blank">Uitvoeringsregelement
                             HBO-ICT 2018/2019</a> </li>
                     <li> <a href="https://hz.nl/uploads/documents/Regelingen/NL/Onderwijs-examenregelingen/OER-HZ-2018-2019docv2018-06-26DEFCvB-V-01.pdf"
@@ -40,5 +41,37 @@
 
 
         </ul>
+
+
+        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ 
+ 
+ <!--...-->
+<url>
+<loc>https://anfaza.github.io/</loc>
+<lastmod>2018-09-05T10:58:32+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://anfaza.github.io/index.html</loc>
+<lastmod>2018-09-05T10:58:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://anfaza.github.io/overmij.html</loc>
+<lastmod>2018-09-05T10:58:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://anfaza.github.io/dashboard.html</loc>
+<lastmod>2018-09-05T10:58:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://anfaza.github.io/sitemap.xml</loc>
+<lastmod>2018-09-05T10:58:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
     </div>
 </body>
