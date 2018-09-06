@@ -139,6 +139,18 @@ table,  td {
 
 tr{ text-align:center;}
 
+td.afwachting::after {
+    content: "In afwachting";
+    background-color: hsl(234, 100%, 66%);
+}
+td.voltooid::after { content:"Behaald";
+background-color:rgb(25, 202, 25);}
+
+td.voltooidonvoldoende::after{ content:"Niet behaald";
+background-color:rgb(189, 54, 54);}
+
+
+
 .regel1{
     background-color:rgb(34, 100, 45);
 }
