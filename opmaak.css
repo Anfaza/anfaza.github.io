@@ -1,6 +1,6 @@
 
 .topnav {
-    background-color:whitesmoke;
+    background-color: none;
     overflow: hidden; 
     text-align:center;
     border: 5px solid black;
@@ -46,7 +46,9 @@ IMG.displayed {
 
 
 body {
-    background-color: whitesmoke;
+    background-color:greenyellow;
+    background-image:url("drip-spray-water-liquid.jpg");
+    
 }
 
 h1 { color:green;
@@ -78,7 +80,7 @@ text-align: center;
 
  }
 
-.active { background-color:whitesmoke;
+.active { background-color:none;
 color:saddlebrown;}
 
 .active ul { list-style-type: none;
@@ -138,7 +140,7 @@ table,  td {
 tr{ text-align:center;}
 
 .regel1{
-    background-color: rgb(34, 100, 45);
+    background-color:rgb(34, 100, 45);
 }
     
  .sitemap ul 
@@ -148,7 +150,7 @@ tr{ text-align:center;}
 margin: 0 auto;
 padding:8px;
 width:300px;
-background-color:green;
+background-color:none;
 border: 1px solid #555;
 }
 .sitemap li a {
