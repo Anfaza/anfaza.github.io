@@ -141,4 +141,18 @@ tr{ text-align:center;}
     background-color: rgb(34, 100, 45);
 }
     
+ .sitemap ul 
  
+ {
+ list-style-type: none;
+margin: 0 auto;
+padding:8px;
+width:300px;
+background-color:green;
+border: 1px solid #555;
+}
+.sitemap li a {
+font-weight:bold;
+color: black;} 
+
+.sitemap li {text-align: center;}
