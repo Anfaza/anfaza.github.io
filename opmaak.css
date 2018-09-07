@@ -48,7 +48,7 @@ IMG.displayed {
 body {
     background-color:black;
     background-image:url("drip-spray-water-liquid.jpg");
-
+    
     
 }
 
@@ -109,7 +109,7 @@ border: 1px solid #555;
     border-bottom: none;
 }
 /* Change the link color on hover*/
-.active li a:hover { background-color:greenyellow;
+.active li a:hover { background-color:blue;
 color:white;}
 
 .aantalecs
