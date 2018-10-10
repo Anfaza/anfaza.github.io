@@ -37,7 +37,21 @@ IMG.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto ;
-    border-radius: 50%; }
+    border-radius: 50%;
+ }
+
+
+ IMG.long {
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius:25%;
+
+
+}
+
+
+
 
 .filmpje { display: block;
     margin-left: auto;
@@ -46,10 +60,13 @@ IMG.displayed {
 
 
 body {
-    background-color:black;
-    background-image:url("./../img/drip-spray-water-liquid.jpg");
+    background-color:white;
+    background-image: url('../img/achtergrondportfol.jpg');
+    background-repeat: no-repeat;
+    background-size : auto 100%;
     
-    
+   
+        
 }
 
 h1 { color:green;
