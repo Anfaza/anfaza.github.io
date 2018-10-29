@@ -25,12 +25,24 @@
 
 .rcorners1 {
     border-radius: 25px;
-    background: #73AD21;
+    background: rgb(205, 255, 136);
     padding: 20px; 
     text-align:center;
     font-weight: bold;
     border: 5px solid black;
     font-family: bell;
+    
+}
+.favorite {
+
+border-radius: 25px;
+background: rgb(213, 120, 221);
+padding: 20px; 
+text-align:center;
+font-weight: bold;
+border: 5px solid black;
+font-family: bell;
+list-style-type:none;
 }
 
 IMG.displayed {
@@ -55,18 +67,20 @@ border-radius:25%;
 
 .filmpje { display: block;
     margin-left: auto;
-    margin-right: auto ;}
+    margin-right: auto ;
+}
  
 
 
-body {
+body 
+{
     background-color:white;
     background-image: url('../img/achtergrondportfol.jpg');
     background-repeat: no-repeat;
     background-size : auto 100%;
-    
-   
-        
+
+
+
 }
 
 h1 { color:green;
@@ -98,8 +112,10 @@ text-align: center;
 
  }
 
-.active { background-color:none;
-color:saddlebrown;}
+.active
+ { background-color:none;
+color:black;
+}
 
 .active ul { list-style-type: none;
 margin:0 auto;
@@ -115,7 +131,10 @@ border: 1px solid #555;
 .active li a { display: block;
     color:black;
     padding : 8px 16px;
-    text-decoration:none;
+    text-decoration:no
+    
+    
+    \ne;
     text-align: center;
     border-bottom: 1px solid #555;
     font-weight:bold;
